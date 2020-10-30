@@ -1,0 +1,211 @@
+body{
+	background-image: url("C:/Users/SaiCharan/Desktop/Lost & Found/Images/resize.png");
+	background-size: 780px 698px;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.logo{
+	display: flex;
+}
+
+.logo img{
+	margin-left: 35px;
+	margin-top: 40px;
+	margin-right: 0px;
+}
+
+.logo h1{
+	font-family: 'Acme', sans-serif;
+	margin-left: 15px;
+	margin-top: 45px;	
+}
+
+#instruct{
+	margin-left: 100px;
+	margin-top: 30px;
+}
+#instruct h1{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 70px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+#instruct p{	
+	margin-top: 5px;
+	margin-bottom: 0px;
+	padding: 0;
+}
+
+form{
+	margin-left: 100px;
+	margin-top: 35px;
+}
+
+
+
+input[type = text] , input[type = password]{
+
+	width: 25%;
+	margin: 5px;
+	border-radius: 50px;
+	font-size: 20px;
+	border-color: transparent;
+	background-color: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+	
+	
+}
+
+
+::placeholder {  
+    color: #e5e5e5;
+}
+
+::placeholder:focus{
+	border-color: #fff;
+}
+
+.inputWithIcon input[type=text], input[type = password]
+{
+	padding-left: 40px;
+
+}
+.inputWithIcon input[type=text]:focus, input[type = password]:focus
+{
+	outline-width: 0;
+	color: #6a197d;
+	
+}
+
+
+.inputWithIcon{
+	position: relative;
+}
+
+.inputWithIcon i{
+	position: absolute;
+	left: 13px;
+	top: 11px;
+}
+
+
+
+.center input[type="checkbox"]
+{
+	position: relative;
+	top:5px;
+	
+	width: 30px;
+	height: 15px;
+	-webkit-appearance: none;
+	background-color: #c6c6c6;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	
+}
+
+
+.center input:checked[type="checkbox"]
+{
+	background: #6a197d;
+}
+.center input[type="checkbox"]:hover{
+	cursor: pointer;
+}
+
+.center input[type="checkbox"]:before
+{
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	top: 0;
+	left: 0px;
+	background-color: #fff;
+	transform: scale(1.1);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+	transition: 0.5s;
+}
+
+.center input:checked[type="checkbox"]:before
+{
+	left: 15px;
+}
+
+.center input:checked[type="checkbox"]:hover{
+	cursor: pointer;
+}
+
+.center label{
+	font-family: 'Acme',sans-serif;
+	font-size: 20px;
+	font-weight: 50%;
+	top: 0;
+	
+}
+
+.center a{
+	color: #6a197d;
+	margin-right: 0px;
+	margin-left: 80px;
+}
+
+.box
+{
+	display: flex;
+	padding: 0;
+	margin:0;
+}
+.btn input[type="submit"]{
+	border-radius: 50px;
+	width: 170px;
+	height: 30px;
+	outline: none;
+	background-color: #6a197d;
+	color: #fff;
+	border-color: transparent;
+	
+}
+.btn input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #562349;
+	
+
+}
+.btn1 input[type="submit"]{
+	border-radius: 50px;
+	width: 170px;
+	height: 30px;
+	outline: none;
+	background-color: #fff;
+	color: #000;
+	border-color: transparent;
+	transition: 0.5s;
+	margin-left: 10px;
+}
+.btn1 input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: #6a197d;
+	color: #fff;
+}
+
+.container{
+	color: #6a197d;
+	display: flex;
+	margin-left: 100px;
+	margin-top: 50px; 
+}
+
+.container p{
+	margin-right: 50px;
+}
+.container p:hover{
+	cursor: pointer;
+	color: #562349;
+}
